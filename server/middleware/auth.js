@@ -1,5 +1,5 @@
 const moment = require('moment');
-const { User } = require('../models/user');
+const { User } = require('../models/User');
 
 let auth = (req, res, next) => {
   const token = req.header('x_token');
